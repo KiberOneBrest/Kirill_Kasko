@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.myimage{
+    width: 100%;
+}
+
+.list{
+    list-style-type: none;
+    border: 3px dotted black;
+    width: 500px;
+    margin: 20px;
+    padding: 35px;
+}
+
+body{
+    background-color: rgb(248, 243, 236);
+
+    /* background: url(2018-08-25-400_69517-1_812454.webp); */
+}
+
+ul{
+    text-align: center;
+}
+
+
+
+nav{
+    text-align: center;
+    padding: 30px;
+}
+
+header{
+    background-color: rgba(77, 121, 117, 0.712);
+    height: 110px;
+}
+
+nav a{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 36px;
+    background-color: rgb(4, 2, 5);
+    color: rgb(194, 123, 105);
+}
+nav a:hover{
+    background-color: rgba(235, 240, 238, 0.411);
+    color: rgb(0, 0, 0);
+    transition: all 1s linear;
+}
+section{
+    width: 90%;
+    background-color: rgba(202, 86, 86, 0.534);
+    margin: 20px auto 0;
+    padding: 20px;
+}
+section p{
+    font-size: 16px;
+    color: rgb(63, 63, 52);
+}
+
+iframe{
+    width: 100%;
+    height: 700px;
+}
+
+
+div.video-container iframe{
+    width: 530px;
+    height: 315px;
+}
+
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    transform: translateX(-150%);
+}
+audio{
+    width: 100%;
+}
+section:hover{
+    transition: all 1s linear;
+    background-color: rgb(189, 97, 97);
+}
+/* section:hover h1{
+    transition: all 2s linear;
+    font-size:1px;
+} */
+
+.video-section:hover .video-container{
+    transition: all 1s linear;
+    transform: translateX(0px);
+}
+
+
+td img{
+    width: 100px;
+    height: 60px;
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 2px solid rgb(151, 109, 109);
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+}
+
+tr:hover{
+   background-color: aliceblue;
+}
+.show-img{
+     
+     width: 330px; /* ширина элемента */
+     font-size: 24px; /* Размер шрифта */
+     border: 1px solid black; /* Граница (размер, тип линии, цвет) */
+     padding: 20px; /* внутренний отступ */
+     text-align: center;
+     color: wheat; /* изменение цвета текста */
+     margin: 0 auto 20px;
+     /* внешний отступ
+     (отступ вверх, отступ слева и справа, отступ вниз)
+     auto распологает элемент по центру
+     родительского элемента */
+     border-radius: 30px; /* используется для сглаживания углов */
+     
+}
+
+
+.show-img-container>img{
+    opacity: 0;
+    /* делаем наше изображение прозрачным */
+}
+/* ~ - стили применяются для соседних элементов */
+/* ~ ставится комбинация шифт + Ё */
+.show-img:hover~img{
+    opacity: 1;
+    /* делаем изоброжение непрозрачным */
+    transition: all 2s linear;
+}
+
+th{
+    background-color: rgb(77, 100, 93);
+}
+
+th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* text-align: left; */
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+}
+td a{
+    color: black;
+}
+table{
+    text-align: center;
+    font-size: 12px;
+}
+
+a{
+  transform: translateX(-1400px);  
+}
+
+footer{
+    display: flex;
+    background-color: rgb(218, 221, 171);
+    height: 60px;
+    align-items: center;
+    gap:20px;
+    justify-content: center;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+.two-cards{
+    display: flex;
+    gap: 30px;
+}
+.card{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #caa7a7;
+}
+
+.galery-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.galery{
+    width: 90%;
+}
+.galery-item{
+    margin-top: 10px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    float: left;
+    width: 100%;
+    background: #d3b9d1;
+}
+.zoom{
+    display: block;
+    width: 85%;
+    margin: auto;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.zoom:hover{
+    transform: scale(1.05);
+    transition: all 0.3s linear;
+}
+.desc{
+    font-size: 18px;
+    color: bisque;
+    padding-left: 30px;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid burlywood;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
